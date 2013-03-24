@@ -6,7 +6,7 @@ from math import sqrt
 
 primes = [2]
 
-for i in range(3,3500,2):
+for i in range(3,35000,2):
     isprime = True
 
     cap = sqrt(i) + 1

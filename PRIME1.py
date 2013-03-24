@@ -23,9 +23,6 @@ for i in range(3,32000,2):
     if (isprime):
         primes.append(i)
 
-#outputs the list of primes; used for bug-testing purposes only
-#print primes[:-1]
-
 #T is the number of integer pairs (test cases) and thus times the generator will activate
 T = input()
 #clears the var "output" (just in case :])
@@ -66,7 +63,7 @@ for t in range(T):
 
     #finally, the sweet part
     #adds all the relevant primes (i.e. between n and m) to the output list
-    for i in range(m:n+1):
+    for i in range(m,n+1):
         if (isprime[i-m] == True):
             output += str(i) + "\n"
 

@@ -1,5 +1,5 @@
 #Python 2.7.3
-#Sphere Online Judge Problem PRIME1
+#Sphere Online Judge problem PRIME1
 #http://www.spoj.com/problems/PRIME1/
 
 from math import sqrt

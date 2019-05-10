@@ -61,7 +61,6 @@ for t in range(T):
         falseblock = [False] * len(isprime[start-m:n+1-m:i]);
         isprime[start-m:n+1-m:i] = falseblock
 
-    #finally, the sweet part
     #adds all the relevant primes (i.e. between n and m) to the output list
     for i in range(m,n+1):
         if (isprime[i-m] == True):
